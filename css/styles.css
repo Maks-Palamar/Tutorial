@@ -1,0 +1,457 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    background-color: #FFF;
+    margin: 0;
+}
+
+.container {
+    width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    
+}
+
+p {
+    
+}
+
+h2 {
+    text-align: center;
+    color: #111;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        /* 116.667% */
+        letter-spacing: -0.72px;
+        text-transform: uppercase;
+}
+
+/*-----------------*/
+
+.header {}
+
+.logo {
+    color: #111;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: -0.54px;
+}
+
+.logo-span {
+    font-style: italic;
+}
+
+.titles-span {
+    color: #FD9222;
+}
+
+.menu {
+    
+}
+
+.menu-list {}
+
+.menu-list-item {}
+
+.menu-list-link {
+    color: #111;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        /* 114.286% */
+        letter-spacing: -0.28px;
+}
+
+.menu-list-link:hover {
+    color: var(--orange, #FD9222);
+}
+
+.networks {}
+
+.networks-item {}
+
+.networks-link {}
+
+.networks-image {}
+
+.main {}
+
+.hero {
+    border-radius: 30px;
+    background: rgba(17, 17, 17, 0.60);
+}
+
+.hero-title {
+    color: #FFF;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+        /* 121.429% */
+        letter-spacing: -0.84px;
+}
+
+.hero-btn {
+    border-radius: 100px;
+        background: #FD9222;
+        color: #FFF;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+}
+
+.hero-btn:hover {
+    border-radius: 100px;
+        background: #FCF1E0;
+        color: #FD9222;
+}
+
+.hero-navigation-link {
+    border-radius: 100px;
+        border: 1px solid #FFF;
+        color: #FFF;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+}
+
+.hero-navigation-link:hover {
+    border-radius: 100px;
+        border: 1px solid #FD9222;
+        color: #FD9222;
+            
+}
+
+.hero-scroll {
+    color: #FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.42px;
+}
+
+.hero-scroll:hover {
+    color: #FD9222;
+}
+
+.features {
+    color: #FFF;
+    background: #1E1823;
+}
+
+.hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.features-list {}
+
+.feature {}
+
+.feature-title {
+    color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+
+.feature-text {
+    color: rgba(255, 255, 255, 0.70);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+}
+
+.ingredients {}
+
+.ingredients-title {
+    
+}
+
+.ingredients-list {}
+
+.ingredient {}
+
+.ingredient-img {}
+
+.ingredient-text {}
+
+.receipt {}
+
+.receipt-title {
+
+}
+
+.receipt-img {}
+
+.receipt-title3 {
+    color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 133.333% */
+}
+
+.receipt-list {}
+
+.receipt-item {}
+
+.receipt-text {
+    color: #111;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+}
+
+.products {}
+
+.products-title {}
+
+.products-list {}
+
+.products-item {
+    border-radius: 15px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FFF;
+}
+
+.products-img {}
+
+.products-name {
+    color: #111;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 133.333% */
+        letter-spacing: -0.36px;
+        text-transform: uppercase;
+}
+
+.products-type {
+    color: rgba(17, 17, 17, 0.70);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        /* 116.667% */
+        letter-spacing: -0.24px;
+}
+
+.products-price {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    border-radius: 100px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FAFAFA;
+
+}
+
+.topsellers {}
+
+.topsellers-title {}
+
+.topsellers-list {}
+
+.topsellers-item {
+    border-radius: 0px 0px 15px 15px;
+        border-right: 1px solid rgba(17, 17, 17, 0.10);
+        border-bottom: 1px solid rgba(17, 17, 17, 0.10);
+        border-left: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FFF;
+}
+
+.topsellers-img {
+    border-radius: 15px 15px 0px 0px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.topsellers-name {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 133.333% */
+        letter-spacing: -0.36px;
+        text-transform: uppercase;
+}
+
+.reviews {}
+
+.reviews-title {}
+
+.reviews-list {}
+
+.review-item {
+    border-radius: 15px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FFF;
+        box-shadow: 0px 9.04932px 100px 0px rgba(17, 17, 17, 0.03);
+}
+
+.review-img {
+    border-radius: 80px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.reviewer {
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 133.333% */
+}
+
+.review-text {
+    color: rgba(17, 17, 17, 0.70);
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+}
+
+.review-btn {
+    color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 100px;
+            border: 1px solid #FD9222;
+        
+}
+
+.review-btn:hover {
+    color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 100px;
+            background: #FD9222;
+}
+
+.footer {
+    background: #1E1823;
+}
+
+.footer-title {
+    text-align: left;
+    text-transform: none;
+    color: #FFF;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: -0.56px;
+
+}
+
+.footer-networks {
+    color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        /* 128.571% */
+}
+
+.footer-contacts-text {
+    color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        /* 128.571% */
+}
+
+.footer-contacts {}
+
+.footer-contacts-list {}
+
+.footer-address {}
+
+.footer-tel {
+    color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+}
+
+.footer-mail {
+    color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+}
